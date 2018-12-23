@@ -1,9 +1,9 @@
-import React from 'react';
+import React, {Component} from 'react';
 import {fetchApartment} from "../actions/apartmentActions";
 import {connect} from "react-redux";
 import ApartmentAmentityView from "./ApartmentAmentityView";
 
-export class ApartmentView extends React.Component {
+export class ApartmentView extends Component {
   componentDidMount() {
     const { match: { params } } = this.props;
     const { apartmentId } = params;
