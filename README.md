@@ -15,7 +15,7 @@
     - Modified graphql calls with `async await` for promises
     - Added negative cases
     - Added a message in UI if no data exists
-    - Added `Axios` instead of `graphql` in one scenario where I wanted to implement Search engine on location based on title,  as`graphql` schema wasn't able to filter locations by title.
+    - Added `Axios` instead of `graphql` in one scenario where I wanted to implement location based search engine on the basis of title,  as`graphql` schema wasn't able to filter locations by title.
     - Created a `Header` component and moved the code from index.html to it.
     
 2. Add webpack  : It is present in `react-scripts` already
