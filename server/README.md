@@ -1,4 +1,4 @@
-# Homelike server for assignment
+
 
 ## Background information
 
