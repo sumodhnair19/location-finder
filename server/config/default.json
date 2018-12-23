@@ -1,0 +1,6 @@
+{
+  "host": "localhost",
+  "port": 5000,
+  "public": "../public/",
+  "mongodb": "mongodb://localhost:27017/assignment"
+}

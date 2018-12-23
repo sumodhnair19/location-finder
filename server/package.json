@@ -1,0 +1,64 @@
+{
+  "name": "homelike-assignment-server",
+  "description": "Homelike server for assignment",
+  "version": "1.0.0",
+  "main": "src",
+  "keywords": [
+    "feathers"
+  ],
+  "author": {
+    "name": "Homelike Devs",
+    "email": "devs@homelike.cc"
+  },
+  "contributors": [],
+  "bugs": {},
+  "directories": {
+    "lib": "src"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "scripts": {
+    "test": "",
+    "start": "babel-node src/",
+    "postinstall": "node config/data/index.js"
+  },
+  "dependencies": {
+    "apollo-server-express": "^1.2.0",
+    "body-parser": "^1.18.2",
+    "helmet": "^3.13.0",
+    "compression": "^1.7.3",
+    "cors": "^2.8.4",
+    "debug": "^2.6.9",
+    "async": "^2.6.1",
+    "express-session": "^1.15.5",
+    "feathers": "^2.2.0",
+    "feathers-configuration": "^0.4.1",
+    "feathers-errors": "^2.9.2",
+    "feathers-hooks": "^2.0.2",
+    "feathers-hooks-common": "^3.7.3",
+    "feathers-mongodb": "^2.9.1",
+    "feathers-rest": "^1.8.0",
+    "flat": "^2.0.1",
+    "graphql": "^0.11.7",
+    "graphql-server-express": "^1.2.0",
+    "graphql-tools": "^1.2.3",
+    "lodash": "^4.17.4",
+    "mongodb": "^2.2.35",
+    "serve-favicon": "^2.4.3",
+    "url-join": "^2.0.2",
+    "sha256": "^0.2.0",
+    "winston": "2.4.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-watch": "^2.0.7",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "eslint": "^4.10.0",
+    "feathers-memory": "^1.1.0"
+  }
+}
