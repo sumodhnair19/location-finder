@@ -14,6 +14,8 @@
     - Added negative cases
     - Added a message in UI if no data exists
     - Added `Axios` instead of `graphql` in one scenario where I wanted to implemented Search based on location title as     `graphql`      schema wasn't able to filter locations by title
+    - Created a `Header` component and moved the code from index.html to it.
+    
 2. Add webpack  : It is present in `react-scripts` already
 3. Add information about owner to apartment view page - Done
 4. Add new page "Locations", show the apartments filtered by location - Done
