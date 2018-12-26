@@ -13,6 +13,7 @@
 1. Invest some time to refactor the current code and make it better
     - Changed code from `ES5` to `ES6`
     - Modified graphql calls with `async await` for promises
+    - Moved code from `ComponentWillMount` lifecyle hook for server calls to `ComponentDidMount` method.
     - Added negative cases
     - Added a message in UI if no data exists
     - Added `Axios` instead of `graphql` in one scenario where I wanted to implement location based search engine on the basis of title,  as`graphql` schema wasn't able to filter locations by title.
